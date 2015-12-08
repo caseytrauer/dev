@@ -1,0 +1,16 @@
+<channel
+   name="Dev: FHIR adapter"
+   guid="EFDF2C3AABCB22349E0B6B59F378B58C"
+   description="Testing approaches for creating a FHIR adapter based on public spec documents."
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="Dev_FHIR_adapter-From-0Oum0fI4ksFhG3"
+      commit_id="263665351d793cc2ab9721b7a0fc8b2b4620e282"
+      commit_comment="test"
+      poll_time="10000">
+   </from_mapper>
+</channel>
