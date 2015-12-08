@@ -1,0 +1,16 @@
+<channel
+   name="Athena Adaptor -- Monica"
+   guid="9042F0700042843CCF038A5E69B55084"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="Athena_Adaptor_--_Monica-From-L7PimX1dlaMmB3"
+      commit_id="7b7c780e27dd95a6506a7ef5715527f8827eb58e"
+      commit_comment="Monica&apos;s project."
+      poll_time="10000">
+   </from_mapper>
+</channel>

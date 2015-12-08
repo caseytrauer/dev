@@ -1,0 +1,24 @@
+<channel
+   name="Training: REST client"
+   guid="2705CF56D5FE2910ED4E3E768067D00E"
+   description="Sample web services client using iNTERFACEWARE sandbox."
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="Training_REST_client-To-3cysSIFja9baPn"
+      commit_id="9733fa325778ef57786464467ea206b989f30a9b"
+      commit_comment="First attempt to connect to Art&apos;s training web server.">
+      <dequeue_list>
+         <dequeue
+            source_guid="00000000000000000000000000000000"
+            dequeue_guid="0B1F5ED14C1C33F2814C75234EE59978"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_llp_listener
+      ack_vmd_path="${iguana_dir}/autoack.vmd"
+      port="5146"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      ack_style="fast"/>
+</channel>

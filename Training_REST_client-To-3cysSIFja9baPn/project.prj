@@ -1,0 +1,15 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "parseTools"
+    ],
+    "OtherDependencies": [
+        "demo2.vmd"
+    ],
+    "timestamp": "1449610975",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

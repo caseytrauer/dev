@@ -1,0 +1,21 @@
+{
+    "LocalDependencies": [
+        "config.lua"
+    ],
+    "LuaDependencies": [
+        "api",
+        "athena.athena_source",
+        "athena.token",
+        "builtinmodule.store",
+        "builtinmodule.urlcode"
+    ],
+    "OtherDependencies": [
+        "example/demo.vmd"
+    ],
+    "timestamp": "1449610913",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}
