@@ -1,0 +1,25 @@
+<channel
+   name="03-Lookup Web Service"
+   guid="BDF312F25830874EC2D102F898ED47C0"
+   description="This channel is an example web service that allows information from a database to be queried via HTTP GET.  &#xD;&#xA;&#xD;&#xA;The Source component listens for GET requests, searches the database for the requested information and responds as either XML or JSON.&#xD;&#xA;&#xD;&#xA;The Filter component is not in use.&#xD;&#xA;&#xD;&#xA;The Destination component is not in use.&#xD;&#xA;&#xD;&#xA;More information: http://wiki.interfaceware.com/1371.html"
+   start_automatically="true"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_http
+      type="mapper"
+      guid="3B2EDA91AF193D49EADF38FB512DF155"
+      commit_id="b2ed76635ca3f1fd2bac39ee4aeb95e0b7115e5a"
+      commit_comment="Committing translator data for imported channel(s)."
+      mapper_url_path="lookup"/>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>
