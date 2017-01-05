@@ -1,0 +1,45 @@
+<channel
+   name="Facility 4"
+   guid="5873087ED75ABE38191125B2DE92EFE8"
+   description="HL7 2.6 Data from Facility 1 out to Facility 2"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="true">
+   <to_file
+      output_dir="/Users/ctrauer/Documents/Iguana6Data/Iguana_Training/"
+      write_to_separate_file="false"
+      output_single_filename="%Y%m%d.txt"
+      use_prepended_info_as_filename="false"
+      output_file_id_type="0"
+      output_filename_mask=""
+      temp_file_extension="tmp"
+      count_of_padding_digit="5"
+      ftp_server="target.interfaceware.com"
+      ftp_username="casey.trauer@interfaceware.com"
+      ftp_password="F9ZPfEwfCUpyKfQKb71GfP8fCEpmMlFjJhnHOXTYN3I="
+      ftp_path="/home/casey"
+      sftp_authentication_method="user_password"
+      use_ftp="false">
+      <dequeue_list>
+         <dequeue
+            source_name="Facility 1 - Inbound"
+            dequeue_guid="C3302848B80298881FE80D9332B51680"/>
+         <dequeue
+            source_name="Facility 1 - Inbound File"
+            dequeue_guid="C1205EDE5385C0AA8BCBA3FF8E47B740"/>
+      </dequeue_list>
+   </to_file>
+   <from_channel/>
+   <message_filter
+      filter_after_logging="true"
+      log_pre_post_filter_message="true"
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true"
+      translator_guid="Facility_4-Filter-ikf8AvsTFWFSjN"
+      translator_commit_id="fe9345a526cd9a958a3d2f96e676d36a0058ae50"
+      translator_commit_comment="Changed out string">
+   </message_filter>
+</channel>
