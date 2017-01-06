@@ -1,0 +1,13 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [],
+    "OtherDependencies": [
+        "chop_lab_result.vmd"
+    ],
+    "timestamp": "1483662950",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "Samples": [
+        {
+            "Message": "MSH|^~\\&|VEGA^I4E3VEGA00001036|NUVON|||20161202140036||ORU^R01|1036:02:00000000|T|2.3\rPV1|||QA_BIOMED_ANESTHESIA_01\rOBR|1||||||20161202140011\rOBX|1|NM|110-HR||80|/min|||||R\rOBX|2|NM|110-IBP-C1-S||119|mmHg|||||R\rOBX|3|NM|110-IBP-C1-D||79|mmHg|||||R\rOBX|4|NM|110-IBP-C1-M||95|mmHg|||||R\rOBX|5|NM|110-IBP-C1-HR||80|/min|||||R\rOBX|6|ST|110-IBP-C1-SRC||ART||||||R\rOBX|7|NM|110-IBP-C2-M||6|mmHg|||||R\rOBX|8|ST|110-IBP-C2-SRC||CVP||||||R\rOBX|9|NM|110-CVP-M||6|mmHg|||||R\rOBX|10|NM|110-IBP-C3-S||15|mmHg|||||R\rOBX|11|NM|110-IBP-C3-D||10|mmHg|||||R\rOBX|12|NM|110-IBP-C3-M||12|mmHg|||||R\rOBX|13|NM|110-IBP-C3-HR||80|/min|||||R\rOBX|14|ST|110-IBP-C3-SRC||ART||||||R\rOBX|15|NM|110-IBP-C4-S||24|mmHg|||||R\rOBX|16|NM|110-IBP-C4-D||0|mmHg|||||R\rOBX|17|NM|110-IBP-C4-M||9|mmHg|||||R\rOBX|18|ST|110-IBP-C4-SRC||PA||||||R\rOBX|19|NM|110-PA-S||24|mmHg|||||R\rOBX|20|NM|110-PA-D||0|mmHg|||||R\rOBX|21|NM|110-PA-M||9|mmHg|||||R\rOBX|22|TS|110-NBP-TS||20161202103401||||||R\rOBX|23|NM|110-SPO2||95|%|||||R\rOBX|24|NM|110-SPO2-HR||75|/min|||||R\rOBX|25|NM|110-CO2-P-EX||0.2|mmHg|||||R\rOBX|26|ST|200-IDM-SN||I34PVEGA00000532||||||R",
+            "Name": "Sample data message"
+        }
+    ]
+}
