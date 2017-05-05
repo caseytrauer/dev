@@ -1,0 +1,30 @@
+{
+    "LocalDependencies": [
+        "csv.lua",
+        "fillheader.lua",
+        "fillmedications.lua",
+        "section_template.lua"
+    ],
+    "LuaDependencies": [
+        "cda",
+        "cda.code",
+        "cda.code.simple",
+        "cda.codeset",
+        "cda.demographic",
+        "cda.dose",
+        "cda.help",
+        "cda.id",
+        "cda.null",
+        "cda.time",
+        "cda.value",
+        "cda.xml",
+        "csv"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1493990369",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

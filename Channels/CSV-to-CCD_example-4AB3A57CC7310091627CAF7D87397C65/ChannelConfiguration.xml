@@ -1,0 +1,16 @@
+<channel
+   name="CSV-to-CCD example"
+   guid="4AB3A57CC7310091627CAF7D87397C65"
+   description="Demo channel converting a medication list from CSV into a CCD section."
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="CSV-to-CCDA_example-From-ZOK8KLCPXWyjxc"
+      commit_id="ca72a2056c35c2baf7ab0e1e257225f036302edd"
+      commit_comment="Simplifies HTML row build a bit."
+      poll_time="10000">
+   </from_mapper>
+</channel>
