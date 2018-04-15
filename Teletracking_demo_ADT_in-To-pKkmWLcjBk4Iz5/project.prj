@@ -1,0 +1,21 @@
+{
+    "LocalDependencies": [
+        "main_example.lua"
+    ],
+    "LuaDependencies": [
+        "mappings.cerner.ADT.2_3_1",
+        "mappings.my_data_model",
+        "validations.my_rules"
+    ],
+    "OtherDependencies": [
+        "demo.vmd",
+        "race_lookup.txt",
+        "sample_data.txt"
+    ],
+    "timestamp": "1523799751",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

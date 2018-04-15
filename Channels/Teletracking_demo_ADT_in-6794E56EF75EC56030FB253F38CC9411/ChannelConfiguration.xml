@@ -1,0 +1,24 @@
+<channel
+   name="Teletracking demo: ADT in"
+   guid="6794E56EF75EC56030FB253F38CC9411"
+   description="A tutorial channel to illustrate how to connect to web services."
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="Teletracking_demo_ADT_in-To-pKkmWLcjBk4Iz5"
+      commit_id="50bdc5d867e22eed2d38e9738b1154d5b9649eec"
+      commit_comment="modules reconfigured">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="E0120AC7CF27E6FD5550ADA66FF0FB23"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_llp_listener
+      ack_vmd_path="/Users/ctrauer/Documents/Iguana-6_0_4/autoack.vmd"
+      port="2015"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      ack_style="fast"/>
+</channel>
